@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAGE EDITOR</title>
+</head>
+<body background="https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+  <h2>CSS AND JS IMAGE EDITOR </h2>
+
+  <div class="controls">
+    <label for="spacing">Border Width</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Border and Image Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="3" data-sizing="px">
+
+    <label for="base">Border Color</label>
+    <input id="base" type="color" name="base" value="royalblue">
+  </div>
+
+  <img src="https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/08/668/376/170428013333_hero1.jpg?ve=1&tl=1">
+<br>
+<button onclick="window.print()">Print this image!</i></button>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_email"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+<style>
+    button{
+        background-color: transparent;
+        border-color:black;
+        border-width: 6px;
+        height: 50px;
+        width:150px
+    }
+</style>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="main.js">
+  </script>
+
+</body>
+</html>

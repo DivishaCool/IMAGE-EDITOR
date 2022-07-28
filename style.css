@@ -1,0 +1,33 @@
+:root{
+    --spacing: 10px;
+    --blur: 10px;
+    --base:royalblue;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+  body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Square Peg', cursive;
+    font-weight: 100;
+    font-size: 30px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+  .hl{
+    color: var(--base);
+  }
+
+  img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
